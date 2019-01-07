@@ -27,6 +27,9 @@ nav > ul {
 }
 
 body {
+
+  color: white;
+  background: black;
   font-size: 1.4em;
 }
 
