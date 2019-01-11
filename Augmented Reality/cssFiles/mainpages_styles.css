@@ -5,6 +5,8 @@ body > article > section {
 body {
   font-size: 1.4em;
   text-align: center;
+  background: black;
+  color: white;
 }
 
 p {
@@ -88,4 +90,5 @@ h2 {
     text-align: left;
     border-bottom: 1px solid black;
     margin-top: 50px;
+    border-color: white;
 }
