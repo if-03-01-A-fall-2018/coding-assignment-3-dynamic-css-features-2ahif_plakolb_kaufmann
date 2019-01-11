@@ -16,6 +16,8 @@ nav {
 body {
   font-size: 1.4em;
   text-align: center;
+  background: black;
+  color: white;
 }
 
 td > ul > li {
@@ -26,6 +28,7 @@ td > ul > li {
 table, th, td {
   border: 2px solid black;
   padding: 5px;
+  border-color: white;
 }
 
 table {
@@ -62,14 +65,16 @@ nav > li a:hover {
 h1 {
   clear: both;
   text-align: center;
-  color: #333;
+  color: white;
   text-shadow: darkgrey 2px 2px 2px;
+  border-color: white;
 }
 
 h2 {
   border-bottom: 10px double black;
   margin-top: 100px;
   clear: both;
+  border-color: white;
 }
 
 li {
