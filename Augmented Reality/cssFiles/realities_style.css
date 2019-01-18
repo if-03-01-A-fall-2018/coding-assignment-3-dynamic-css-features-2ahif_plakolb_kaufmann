@@ -85,7 +85,7 @@ li.dropdown {
     display: block;
 }
 
-img {
+body > img {
   border-radius: 10px;
   border: 1px solid red;
   margin: 10px;
