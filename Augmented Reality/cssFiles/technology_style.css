@@ -9,6 +9,11 @@ nav > ul {
     border-radius: 10px;
 }
 
+nav > ul > li > img{
+  padding-top: 10px;
+  padding-left: 5px
+}
+
 nav {
   margin-bottom: 5%;
 }
