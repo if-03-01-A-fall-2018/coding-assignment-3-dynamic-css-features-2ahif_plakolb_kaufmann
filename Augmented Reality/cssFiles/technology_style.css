@@ -2,7 +2,7 @@ nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom right, red, purple, indigo, #ff00bf, red);
+    background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
     position: fixed;
     top: 0;
     width: 99.4%;
@@ -44,12 +44,12 @@ caption {
   font-weight: bold;
   text-decoration: underline;
   margin-top: 1%;
-  background-color: #333;
+  background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
   color: white;
 }
 
 th {
-  background-color: #333;
+  background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
   color: white;
   font-size: 1.1em;
 }
@@ -101,7 +101,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-image: linear-gradient(to bottom right, red, purple, indigo, #ff00bf, red);
+    background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
