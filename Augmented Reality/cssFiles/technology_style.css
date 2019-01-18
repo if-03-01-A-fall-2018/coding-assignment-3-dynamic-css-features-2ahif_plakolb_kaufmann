@@ -53,7 +53,7 @@ caption {
   color: white;
 }
 
-th {
+thead {
   background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
   color: white;
   font-size: 1.1em;
