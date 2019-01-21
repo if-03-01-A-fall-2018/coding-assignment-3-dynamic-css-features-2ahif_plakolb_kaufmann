@@ -111,7 +111,7 @@ article>h1{
   -webkit-animation-iteration-count: infinite;
 }
 
-div.test {
+div.animation {
   width: 32px;
   height: 32px;
   background-image:url("ar.png");
