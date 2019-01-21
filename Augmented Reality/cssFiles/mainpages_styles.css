@@ -111,18 +111,18 @@ article>h1{
   -webkit-animation-iteration-count: infinite;
 }
 
-div {
+div.test {
   width: 32px;
   height: 32px;
   background-image:url("ar.png");
   position: relative;
   margin-top: 0;
-  animation-name: example;
+  animation-name: animation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
-@keyframes example {
+@keyframes animation {
   0%   {background-image:url("ar.png"); left:25%;}
   25%  {background-image:url("ar.png"); left:50%;}
   50%  {background-image:url("ar.png"); left:75%;}
