@@ -44,7 +44,6 @@ table {
   margin-bottom: 2.5%;
 }
 
-<<<<<<< HEAD
 caption {
   font-size: 1.3em;
   font-weight: bold;
@@ -55,9 +54,6 @@ caption {
 }
 
 thead {
-=======
-th {
->>>>>>> 0bc012ca8b2d12e34de5e3b920569d86c1a637e4
   background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
   color: white;
   font-size: 1.1em;
