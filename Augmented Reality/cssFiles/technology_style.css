@@ -44,15 +44,6 @@ table {
   margin-bottom: 2.5%;
 }
 
-caption {
-  font-size: 1.3em;
-  font-weight: bold;
-  text-decoration: underline;
-  margin-top: 1%;
-  background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
-  color: white;
-}
-
 th {
   background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
   color: white;
