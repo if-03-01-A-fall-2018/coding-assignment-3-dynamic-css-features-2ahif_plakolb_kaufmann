@@ -15,13 +15,15 @@ nav > ul > li > img{
 }
 
 nav {
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 body {
   font-size: 1.4em;
   text-align: center;
-  background: black;
+  background-image: url("bulb.jpeg");
+  background-repeat: repeat-x;
+  background-color: #292424;
   color: white;
 }
 
