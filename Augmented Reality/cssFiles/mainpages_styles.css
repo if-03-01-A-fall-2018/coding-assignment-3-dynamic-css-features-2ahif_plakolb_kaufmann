@@ -5,8 +5,7 @@ body > article > section {
 body {
   font-size: 1.4em;
   text-align: center;
-  /*background-image: url("Fernando.jpg");*/
-  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);;
   color: white;
 
 }
@@ -91,11 +90,11 @@ h2 {
 }
 
 @-webkit-keyframes Header {
-0%   {color: red;}
+0%   {color: #d92bb7;}
 25%  {color: purple;}
 50%  {color: indigo;}
 75% {color: #ff00bf;}
-100% {color: red;}
+100% {color: #d92bb7;}
 
 }
 
@@ -116,10 +115,10 @@ div.Ar {
   height: 32px;
   margin-top: 0%;
   margin-bottom: 0%;
-  background-image:url("ar.png");
+  background-image:url("images/ar.png");
   position: relative;
   animation-name: Ar;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -127,9 +126,9 @@ div.Ar {
 
 /* Standard syntax */
 @keyframes Ar {
-  0%   {background-image:url("ar.png"); left:4%; top:4%;}
-  40%  {background-image:url("ar.png"); left:92%; top:4%;}
-  50%  {background-image:url("ar.png"); left:92%; top:11%;}
-  90%  {background-image:url("ar.png"); left:4%; top:11%;}
-  100% {background-image:url("ar.png"); left:4%; top:4%;}
+  0%   {background-image:url("images/ar.png"); left:4%; top:4%;}
+  40%  {background-image:url("images/ar.png"); left:92%; top:4%;}
+  50%  {background-image:url("images/ar.png"); left:92%; top:11%;}
+  90%  {background-image:url("images/ar.png"); left:4%; top:11%;}
+  100% {background-image:url("images/ar.png"); left:4%; top:4%;}
 }
