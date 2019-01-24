@@ -7,6 +7,12 @@ body {
   text-align: center;
   background: black;
   color: white;
+
+}
+
+article{
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 p {
@@ -15,6 +21,7 @@ p {
 }
 
 nav > ul > li > img{
+  float: right;
   padding-top: 10px;
   padding-left: 5px
 }
@@ -75,18 +82,10 @@ li.dropdown {
     display: block;
 }
 
-body>img {
-  border-radius: 10px;
-  border: 1px solid black;
-  margin: 10px;
-  float: right;
-  border-color: white;
-}
-
 h2 {
     text-align: left;
     border-bottom: 1px solid black;
-    margin-top: 20px;
+    margin-top: 5%;
     border-color: white;
 }
 
@@ -103,7 +102,7 @@ article>h1{
   font-size: 3em;
   clear: both;
   text-shadow: darkgrey 2px 2px 2px;
-  margin-top: 70px;
+  margin-top: 7%;
   margin-bottom: 0;
   text-align: center;
   -webkit-animation-name: Header;
@@ -111,21 +110,25 @@ article>h1{
   -webkit-animation-iteration-count: infinite;
 }
 
-div.animation {
+div.Ar {
   width: 32px;
   height: 32px;
+  margin-top: 0%;
+  margin-bottom: 0%;
   background-image:url("ar.png");
   position: relative;
-  margin-top: 0;
-  animation-name: animation;
+  animation-name: Ar;
   animation-duration: 5s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
-@keyframes animation {
-  0%   {background-image:url("ar.png"); left:25%;}
-  25%  {background-image:url("ar.png"); left:50%;}
-  50%  {background-image:url("ar.png"); left:75%;}
-  75%  {background-image:url("ar.png"); left:50%;}
-  100% {background-image:url("ar.png"); left:25%;}
+/* Standard syntax */
+@keyframes Ar {
+  0%   {background-image:url("ar.png"); left:4%; top:4%;}
+  40%  {background-image:url("ar.png"); left:92%; top:4%;}
+  50%  {background-image:url("ar.png"); left:92%; top:11%;}
+  90%  {background-image:url("ar.png"); left:4%; top:11%;}
+  100% {background-image:url("ar.png"); left:4%; top:4%;}
 }
