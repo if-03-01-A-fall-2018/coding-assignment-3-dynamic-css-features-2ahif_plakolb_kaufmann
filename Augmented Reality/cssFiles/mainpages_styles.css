@@ -115,7 +115,7 @@ div.Ar {
   height: 32px;
   margin-top: 0%;
   margin-bottom: 0%;
-  background-image:url("images/ar.png");
+  background-image:url("images/iconAR.png");
   position: relative;
   animation-name: Ar;
   animation-duration: 7s;
@@ -126,9 +126,9 @@ div.Ar {
 
 /* Standard syntax */
 @keyframes Ar {
-  0%   {background-image:url("images/ar.png"); left:4%; top:4%;}
-  40%  {background-image:url("images/ar.png"); left:92%; top:4%;}
-  50%  {background-image:url("images/ar.png"); left:92%; top:11%;}
-  90%  {background-image:url("images/ar.png"); left:4%; top:11%;}
-  100% {background-image:url("images/ar.png"); left:4%; top:4%;}
+  0%   {background-image:url("images/iconAR.png"); left:4%; top:4%;}
+  40%  {background-image:url("images/iconAR.png"); left:92%; top:4%;}
+  50%  {background-image:url("images/iconAR.png"); left:92%; top:11%;}
+  90%  {background-image:url("images/iconAR.png"); left:4%; top:11%;}
+  100% {background-image:url("images/iconAR.png"); left:4%; top:4%;}
 }
