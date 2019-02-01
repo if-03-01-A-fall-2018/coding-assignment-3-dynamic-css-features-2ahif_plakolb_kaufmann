@@ -3,33 +3,56 @@
   <head>
     <meta charset="utf-8">
     <link rel="icon" href="images/icon.png" type="image/png" sizes="512x512">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href = "cssFiles/mainpages_styles.css"/>
     <title>Software</title>
   </head>
-  <body>
+
   <nav>
-  <ul>
-    <li><img src="images/ar.png" alt"Icon"</li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="applications.html">Applications</a></li>
-    <li><a href="technology.html">Devices & Technology</a></li>
-    <li class="dropdown">
-  <a href="javascript:void(0)" class="dropbtn">Realities</a>
-  <div class="dropdown-content">
-    <a href="virtual_reality.html">Virtual Reality</a>
-    <a href="augmented_reality.html">Augmented Reality</a>
-    <a href="mixed_reality.html">Mixed Reality</a>
-    <a href="extended_reality.html">Extended Reality</a>
-  </div>
-</li>
-    <li><a href="software.html">Software</a></li>
-  </ul>
-</nav>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">
+      <img src="images/ar.png" alt="Logo" sizes="23x23">
+      </a>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="applications.html">Applications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="technology.html">Devices & Technology</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Realities
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
+            <a class="dropdown-item" href="virtual_reality.html">Virtual Reality</a>
+            <a class="dropdown-item" href="mixed_reality.html">Mixed Reality</a>
+            <a class="dropdown-item" href="extended_reality.html">Extended Reality</a>
+        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="software.html">Software</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+       Augmented Reality
+     </span>
+    </nav>
+    <body>
 <article>
     <h1>Software</h1>
       <section>
         <h2>General Information</h2>
-          <img src="images/software.png" alt="Example picture of Software">
+
           <p>With both SDKs featured here you will need an other development software like Unity or Unreal.</p>
           <p>Augmented reality apps are written in special 3D programs that allow the developer to tie animation or contextual digital information in the computer program to an augmented reality "marker" in the real world. When a computing device's AR app or browser plug-in receives digital information from a known marker, it begins to execute the marker's code and layer the correct image or images.</p>
           <p>AR software works in conjunction with devices such as tablets, phones, headsets, and more. These integrating devices contain sensors, digital projectors, and the appropriate software that enables these computer-generated objects to be projected into the real world. Once a model has been superimposed in the real world, users can interact with it and manipulate the model.
@@ -39,6 +62,7 @@
         <h2>ARKit- Apple</h2>
         <p>ARKit is a software published by Apple Inc. for easier programming of AR apps, but only for IOS. ARKit 2 being only on IOS 12, to this date the latest version of Apples mobile OS.</p>
         <p>Build unparalleled augmented reality experiences for hundreds of millions of users on iOS. With ARKit 2 on iOS 12, your AR apps can now be experienced by multiple users simultaneously, and resumed at a later time in the same state. You can also incorporate real-world objects into your AR experiences, giving your users even greater immersive opportunities.</p>
+        <img src="images/software.png" alt="Example picture of Software">
       </section>
       <section>
         <h2>ARCore - Google</h2>

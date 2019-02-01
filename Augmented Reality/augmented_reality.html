@@ -2,6 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href = "cssFiles/realities_style.css"/>
     <link rel="icon" href="images/icon.png" type="image/png" sizes="512x512">
     <title>Augmented Reality</title>
@@ -9,28 +14,46 @@
     .parallax {
       background-image: url("images/SymbolPic.png");
     }
-</style>
+    </style>
   </head>
-  <body>
-  <nav>
-    <ul>
-      <li><img src="images/ar.png" alt"Icon"</li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="applications.html">Applications</a></li>
-      <li><a href="technology.html">Devices & Technology</a></li>
-      <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Realities</a>
-    <div class="dropdown-content">
-      <a href="virtual_reality.html">Virtual Reality</a>
-      <a href="augmented_reality.html">Augmented Reality</a>
-      <a href="mixed_reality.html">Mixed Reality</a>
-      <a href="extended_reality.html">Extended Reality</a>
-    </div>
-  </li>
-      <li><a href="software.html">Software</a></li>
-    </ul>
-  </nav>
 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">
+      <img src="images/ar.png" alt="Logo" sizes="23x23">
+      </a>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="applications.html">Applications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="technology.html">Devices & Technology</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Realities
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
+            <a class="dropdown-item" href="virtual_reality.html">Virtual Reality</a>
+            <a class="dropdown-item" href="mixed_reality.html">Mixed Reality</a>
+            <a class="dropdown-item" href="extended_reality.html">Extended Reality</a>
+        </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="software.html">Software</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+       Augmented Reality
+     </span>
+    </nav>
+
+
+  <body>
   <article>
     <div class="parallax"></div>
 
