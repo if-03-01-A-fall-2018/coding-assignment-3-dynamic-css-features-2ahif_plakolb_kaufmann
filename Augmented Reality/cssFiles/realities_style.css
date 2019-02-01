@@ -3,7 +3,16 @@ img {
 }
 
 body {
-  text-align: center;
+  text-align: left;
+}
+
+h1 {
+  border-bottom: 5px double black;
+
+}
+
+h2 {
+  border-bottom: 2px solid black;
 }
 
 .parallax{
