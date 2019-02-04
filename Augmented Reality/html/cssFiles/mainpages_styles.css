@@ -50,17 +50,17 @@ div.Ar {
 
 /* Standard syntax */
 @-webkit-keyframes Ar {
-  0%   {background-image:url("images/iconAR.png"); left:4%; top:5%;}
-  40%  {background-image:url("images/iconAR.png"); left:92%; top:5%;}
-  50%  {background-image:url("images/iconAR.png"); left:92%; top:13%;}
-  90%  {background-image:url("images/iconAR.png"); left:4%; top:13%;}
-  100% {background-image:url("images/iconAR.png"); left:4%; top:5%;}
+  0%   {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
+  40%  {background-image:url("../images/iconAR.png"); left:92%; top:5%;}
+  50%  {background-image:url("../images/iconAR.png"); left:92%; top:13%;}
+  90%  {background-image:url("../images/iconAR.png"); left:4%; top:13%;}
+  100% {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
 }
 
 @keyframes Ar {
-  0%   {background-image:url("images/iconAR.png"); left:4%; top:5%;}
-  40%  {background-image:url("images/iconAR.png"); left:92%; top:5%;}
-  50%  {background-image:url("images/iconAR.png"); left:92%; top:13%;}
-  90%  {background-image:url("images/iconAR.png"); left:4%; top:13%;}
-  100% {background-image:url("images/iconAR.png"); left:4%; top:5%;}
+  0%   {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
+  40%  {background-image:url("../images/iconAR.png"); left:92%; top:5%;}
+  50%  {background-image:url("../images/iconAR.png"); left:92%; top:13%;}
+  90%  {background-image:url("../images/iconAR.png"); left:4%; top:13%;}
+  100% {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
 }
