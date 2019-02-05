@@ -2,6 +2,7 @@ body {
   background-image: url("../images/bulb.jpeg");
   /*background-color: #241e20; Color of bulb background */
   color: white;
+  font-size: 22px;
 }
 
 td > ul > li {
