@@ -15,6 +15,7 @@ h2 {
   font-size: 30px;
   border-bottom: 2px solid black;
 }
+
 /* Animations */
 @-webkit-keyframes Header {
 0%   {color: #d92bb7;}
