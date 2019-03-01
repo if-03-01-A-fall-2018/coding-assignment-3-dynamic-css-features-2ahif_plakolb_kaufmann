@@ -13,6 +13,8 @@
 
 <a-entity obj-model="obj: url(/models/Skull.obj); mtl: url(/models/Skull_.mtl)" scale="0.01 0.01 0.01"></a-entity>
 
+<a-entity obj-model="obj: url(/models/Skull_.obj); mtl: url(/models/Skull.mtl)" scale="0.15 0.15 0.15"></a-entity>
+
 https://aframe.io/docs/0.9.0/introduction/installation.html#use-a-local-server
 
 https://aframe.io/docs/0.9.0/introduction/models.html
