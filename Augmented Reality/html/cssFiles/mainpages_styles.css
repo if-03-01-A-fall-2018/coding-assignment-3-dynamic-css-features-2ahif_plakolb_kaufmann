@@ -29,7 +29,7 @@ article>h1{
   font-size: 3em;
   clear: both;
   text-shadow: darkgrey 2px 2px 2px;
-  margin-top: 75px;
+  margin-top: 0px;
   margin-bottom: 20px;
   text-align: center;
   -webkit-animation-name: Header;
@@ -40,7 +40,7 @@ article>h1{
 div.Ar {
   width: 32px;
   height: 32px;
-  margin-top: 10px;
+  margin-top: 100px;
   margin-bottom: 0%;
   background-image:url("../images/iconAR.png");
   position: relative;
@@ -52,14 +52,6 @@ div.Ar {
 
 /* Standard syntax */
 @-webkit-keyframes Ar {
-  0%   {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
-  40%  {background-image:url("../images/iconAR.png"); left:92%; top:5%;}
-  50%  {background-image:url("../images/iconAR.png"); left:92%; top:13%;}
-  90%  {background-image:url("../images/iconAR.png"); left:4%; top:13%;}
-  100% {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
-}
-
-@keyframes Ar {
   0%   {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
   40%  {background-image:url("../images/iconAR.png"); left:92%; top:5%;}
   50%  {background-image:url("../images/iconAR.png"); left:92%; top:13%;}
