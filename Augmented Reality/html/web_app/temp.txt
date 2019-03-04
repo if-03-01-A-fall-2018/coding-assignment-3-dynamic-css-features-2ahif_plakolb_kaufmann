@@ -36,6 +36,10 @@
   <img src="markers/marker (1).png" alt="hiro_marker">
   <img src="markers/hiro_marker_image.png" alt="hiro_marker">
 
+  <a-marker preset='custom' url='models/pattern-marker.patt'>
+
+  <a-marker-camera preset='custom' type='pattern' url='markers/pattern-marker.patt'>
+
 https://aframe.io/docs/0.9.0/introduction/installation.html#use-a-local-server
 
 https://aframe.io/docs/0.9.0/introduction/models.html
