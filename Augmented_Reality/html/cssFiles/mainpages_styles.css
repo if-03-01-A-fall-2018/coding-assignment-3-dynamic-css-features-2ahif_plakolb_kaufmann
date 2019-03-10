@@ -3,6 +3,11 @@ img {
   width: 100%;
 }
 
+.dropdown-menu{
+  background-color: #343A40;
+  font: white;
+}
+
 body {
   width: 50%;
   margin-left: 25%;
@@ -29,7 +34,7 @@ article>h1{
   font-size: 3em;
   clear: both;
   text-shadow: darkgrey 2px 2px 2px;
-  margin-top: 0px;
+  margin-top: 60px;
   margin-bottom: 20px;
   text-align: center;
   -webkit-animation-name: Header;
@@ -51,9 +56,9 @@ div.Ar {
 
 /* Standard syntax */
 @-webkit-keyframes Ar {
-  0%   {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
-  40%  {background-image:url("../images/iconAR.png"); left:92%; top:5%;}
-  50%  {background-image:url("../images/iconAR.png"); left:92%; top:13%;}
-  90%  {background-image:url("../images/iconAR.png"); left:4%; top:13%;}
-  100% {background-image:url("../images/iconAR.png"); left:4%; top:5%;}
+  0%   {background-image:url("../images/iconAR.png"); left:6%; top:5%;}
+  40%  {background-image:url("../images/iconAR.png"); left:90%; top:5%;}
+  50%  {background-image:url("../images/iconAR.png"); left:90%; top:10%;}
+  90%  {background-image:url("../images/iconAR.png"); left:6%; top:10%;}
+  100% {background-image:url("../images/iconAR.png"); left:6%; top:5%;}
 }
