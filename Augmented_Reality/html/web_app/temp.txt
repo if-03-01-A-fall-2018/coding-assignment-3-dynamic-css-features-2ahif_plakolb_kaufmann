@@ -50,11 +50,11 @@
 
   WORKING
   <a-marker preset='custom' type='pattern' url="markers\english_class_goes_ar-marker.patt">
-    <a-entity obj-model="obj: url(models\wtf\spooki-bean-man-public-version.obj); mtl: url(models\wtf\spooki-bean-man-public-version.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity>
+    <a-entity obj-model="obj: url(models\green_man\spooki-bean-man-public-version.obj); mtl: url(models\green_man\spooki-bean-man-public-version.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity>
   </a-marker>
 
   <a-entity obj-model="obj: url(models\andromeda\andromeda-v2.obj); mtl: url(models\andromeda\andromeda-v2.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity> VERY BIG
-  <a-entity obj-model="obj: url(models\wtf\spooki-bean-man-public-version.obj); mtl: url(models\wtf\spooki-bean-man-public-version.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity> NO WORDS
+  <a-entity obj-model="obj: url(models\green_man\spooki-bean-man-public-version.obj); mtl: url(models\green_man\spooki-bean-man-public-version.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity> NO WORDS
   <a-entity obj-model="obj: url(models\jupiter\jupiter.obj); mtl: url(models\jupiter\jupiter.mtl)" scale="0.25 0.25 0.25" rotation="0 270 90"></a-entity> VERY BIG
   <a-entity obj-model="obj: url(models\skull\12140_Skull_v3_L2.obj); mtl: url(models\skull\12140_Skull_v3_L2.mtl)" scale="0.5 0.5 0.5"></a-entity> DOES NOT SEEM TO WORK
 
