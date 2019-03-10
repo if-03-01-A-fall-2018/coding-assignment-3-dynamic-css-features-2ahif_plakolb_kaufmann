@@ -55,8 +55,8 @@
 
   <a-entity obj-model="obj: url(models\andromeda\andromeda-v2.obj); mtl: url(models\andromeda\andromeda-v2.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity> VERY BIG
   <a-entity obj-model="obj: url(models\green_man\spooki-bean-man-public-version.obj); mtl: url(models\green_man\spooki-bean-man-public-version.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity> NO WORDS
-  <a-entity obj-model="obj: url(models\jupiter\jupiter.obj); mtl: url(models\jupiter\jupiter.mtl)" scale="0.25 0.25 0.25" rotation="0 270 90"></a-entity> VERY BIG
-  <a-entity obj-model="obj: url(models\skull\12140_Skull_v3_L2.obj); mtl: url(models\skull\12140_Skull_v3_L2.mtl)" scale="0.5 0.5 0.5"></a-entity> DOES NOT SEEM TO WORK
+  <a-entity obj-model="obj: url(models\jupiter\jupiter.obj); mtl: url(models\jupiter\jupiter.mtl)" scale="0.2 0.2 0.2" rotation="0 270 90"></a-entity> VERY BIG
+  <a-entity obj-model="obj: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.obj); mtl: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.mtl)" scale="0.2 0.2 0.2" rotation="270 270 90"></a-entity> WORKING LOOKS EXTREMELY GOOD
 
 https://aframe.io/docs/0.9.0/introduction/installation.html#use-a-local-server
 
