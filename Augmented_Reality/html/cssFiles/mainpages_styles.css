@@ -3,10 +3,17 @@ img {
   width: 100%;
 }
 
-/*.dropdown-menu{
+.dropdown-menu{
   background-color: #343A40;
-  color: white;
-}*/
+}
+
+.dropdown-menu a{
+  color: grey;
+}
+
+.dropdown-menu hover {
+  background-color: white;
+}
 
 body {
   width: 50%;
