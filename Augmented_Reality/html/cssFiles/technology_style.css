@@ -60,11 +60,11 @@ h2 {
 }
 
 @-webkit-keyframes Header {
-0%   {color: red;}
+0%   {color: #d92bb7;}
 25%  {color: purple;}
 50%  {color: indigo;}
 75% {color: #ff00bf;}
-100% {color: red;}
+100% {color: #d92bb7;}
 
 }
 
