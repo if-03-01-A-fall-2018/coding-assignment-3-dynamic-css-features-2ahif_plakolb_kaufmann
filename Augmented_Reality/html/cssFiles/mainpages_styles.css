@@ -3,6 +3,10 @@ img {
   width: 100%;
 }
 
+iframe {
+  width: 100%;
+}
+
 .dropdown-menu{
   background-color: #343A40;
 }
