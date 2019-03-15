@@ -1,3 +1,15 @@
+.dropdown-menu{
+  background-color: #343A40;
+}
+
+.dropdown-menu a{
+  color: grey;
+}
+
+.dropdown-menu hover {
+  background-color: white;
+}
+
 body {
   background-image: url("../images/bulb.jpeg");
   /*background-color: #241e20; Color of bulb background */
