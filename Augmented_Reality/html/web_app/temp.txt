@@ -57,7 +57,11 @@
   <a-entity obj-model="obj: url(models\green_man\spooki-bean-man-public-version.obj); mtl: url(models\green_man\spooki-bean-man-public-version.mtl)" scale="0.5 0.5 0.5" rotation="0 270 90"></a-entity> NO WORDS
   <a-entity obj-model="obj: url(models\jupiter\jupiter.obj); mtl: url(models\jupiter\jupiter.mtl)" scale="0.2 0.2 0.2" rotation="0 270 90"></a-entity> VERY BIG
   <a-entity obj-model="obj: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.obj); mtl: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.mtl)" scale="0.2 0.2 0.2" rotation="270 270 90"></a-entity> WORKING LOOKS EXTREMELY GOOD
+  <a-entity obj-model="obj: url(models/stonehenge/source/model/stonehenge.obj); mtl: url(models/stonehenge/source/model/stonehenge.mtl)" scale="0.15 0.15 0.15"></a-entity> WORKS LONG LOADING TIME
 
+  <a-marker preset='custom' type='pattern' url="markers\stonehenge_marker.patt">
+  <a-marker preset='custom' type='pattern' url="markers\stonehenge_marker.patt">
+  <a-marker preset='custom' type='pattern' url="markers\english_class_goes_ar-marker.patt">
 https://aframe.io/docs/0.9.0/introduction/installation.html#use-a-local-server
 
 https://aframe.io/docs/0.9.0/introduction/models.html
