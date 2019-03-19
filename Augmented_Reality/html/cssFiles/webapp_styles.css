@@ -30,6 +30,26 @@ a.btn-lg {
   margin-top: 20%;
 }
 
+.button_image:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: text-top;
+  background-color: transparent;
+  background-position : center center;
+  background-repeat:no-repeat;
+}
+
+.left_image:before{
+     background-image : url(../images/arrow_left.png);
+}
+
+.right_image:before{
+     background-image : url(../images/arrow_right.png);
+}
+
 /* Animations */
 @-webkit-keyframes Header {
 0%   {color: #d92bb7;}
