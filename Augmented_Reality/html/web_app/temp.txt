@@ -59,6 +59,8 @@
   <a-entity obj-model="obj: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.obj); mtl: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.mtl)" scale="0.2 0.2 0.2" rotation="270 270 90"></a-entity> WORKING LOOKS EXTREMELY GOOD
   <a-entity obj-model="obj: url(models/stonehenge/source/model/stonehenge.obj); mtl: url(models/stonehenge/source/model/stonehenge.mtl)" scale="0.15 0.15 0.15"></a-entity> WORKS LONG LOADING TIME
 
+  <a-image width="10" height="5" src="../images/Mixed-Reality.jpg" rotation="90 0 180"></a-image> IMAGE WORKS
+
   <a-marker preset='custom' type='pattern' url="markers\stonehenge_marker.patt">
   <a-marker preset='custom' type='pattern' url="markers\stonehenge_marker.patt">
   <a-marker preset='custom' type='pattern' url="markers\english_class_goes_ar-marker.patt">
