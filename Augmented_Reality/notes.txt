@@ -1,0 +1,42 @@
+<footer class="container py-5">
+  <article class="row">
+    <section class="col-6 col-md">
+      <h5>Timeline</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="timeline.html">Timeline</a></li>
+      </ul>
+    </section>
+    <section class="col-6 col-md">
+      <h5>Marketing</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="marketing.html">Marketing</a></li>
+      </ul>
+    </section>
+    <section class="col-6 col-md">
+      <h5>Products</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="../products/iphone.html">iPhone</a></li>
+        <li><a class="text-muted" href="../products/macbook.html">MacBook</a></li>
+        <li><a class="text-muted" href="../products/ipad.html">iPad</a></li>
+        <li><a class="text-muted" href="../products/imac.html">iMac</a></li>
+        <li><a class="text-muted" href="../products/ipod.html">iPod</a></li>
+        <li><a class="text-muted" href="../products/applewatch.html">Apple Watch</a></li>
+        <li><a class="text-muted" href="../products/appletv.html">Apple TV</a></li>
+      </ul>
+    </section>
+    <section class="col-6 col-md">
+      <h5>Apps</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="apps.html">Apps</a></li>
+      </ul>
+    </section>
+    <section class="col-6 col-md">
+      <h5>About Us</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="https://www.instagram.com/meowmeowkillmenow/">Nadia - Instagram</a></li>
+        <li><a class="text-muted" href="https://www.instagram.com/emina_slj/">Emina - Instagram</a></li>
+      </ul>
+    </section>
+  </article>
+  <i class="fab fa-apple slideicon"></i>
+</footer>
