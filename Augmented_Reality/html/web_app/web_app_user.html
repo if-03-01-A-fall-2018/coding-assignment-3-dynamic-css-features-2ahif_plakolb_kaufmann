@@ -2,15 +2,17 @@
 <html>
 <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.5/aframe/build/aframe-ar.js"> </script>
+<script src="../../JavaScript/marker_switching.js"></script>
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene stats embedded arjs='debugUIEnabled: false; sourceType: webcam;'>
-      <a-marker id="anchor" preset='custom' type='pattern' url="markers\english_class_goes_ar-marker.patt">
+      <a-marker preset='custom' type='pattern' url="markers\english_class_goes_ar-marker.patt">
         <a-entity obj-model="obj: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.obj); mtl: url(models\juvenile-teratophoneus-curriei\source\TERAT\TERAT.mtl)" scale="0.2 0.2 0.2" rotation="270 270 90"></a-entity>
       </a-marker>
       <a-marker preset='custom' type='pattern' url="markers\stonehenge_marker.patt">
         <a-entity obj-model="obj: url(models/stonehenge/source/model/stonehenge.obj); mtl: url(models/stonehenge/source/model/stonehenge.mtl)" scale="0.15 0.15 0.15" rotation="180 0 0"></a-entity>
       </a-marker>
       <a-marker preset='hiro'>
+        console_log();
       </a-marker>
     <a-entity camera> </a-entity>
     </a-scene>

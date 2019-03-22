@@ -32,5 +32,27 @@ function marker_switch(direction)
   document.getElementById('marker').src = marker_paths[current_index];
 }
 
-anchorRef.addEventListener("markerFound", (e)=>{ console.log("Found marker!")}
-anchorRef.addEventListener("markerLost", (e)=>{ console.log("Lost marker!")}
+/*
+var m = document.querySelector("a-marker")
+m.addEventListener("markerFound", (e)=>{
+   console.log("found")
+})
+
+m.addEventListener("markerLost", (e)=>{
+   console.log("lost")
+})*/
+
+function is_marker_visible() {
+  if(document.querySelector("a-marker").object3D.visible == true)
+  {
+    console.log("Marker found");
+  }
+  else
+  {
+    console.log("Marker lost");
+  }
+}
+
+function console_log() {
+  console.log("Test");
+}
