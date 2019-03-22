@@ -1,4 +1,4 @@
-/*var lastYear='1968';
+var lastYear='1968';
 
 function showYear(obj, id){
   document.getElementById(lastYear).style.cssText='display: none !important';
@@ -16,4 +16,4 @@ function hoverYear(obj, text){
 
 function hideYear() {
   document.getElementById('hoverYear').style.cssText='display: none !important';
-}*/
+}

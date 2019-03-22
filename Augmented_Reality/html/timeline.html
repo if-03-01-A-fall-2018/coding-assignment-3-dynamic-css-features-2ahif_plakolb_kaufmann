@@ -9,34 +9,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href = "cssFiles/timeline_styles.css"/>
-    <script  type="text/javascript" src="JavaScript/Timeline.js"></script>
-    <script type="text/javascript">
-      var lastYear='1968';
-
-      function showYear(obj, id){
-        document.getElementById(lastYear).style.cssText='display: none !important';
-        document.getElementById(id).style.cssText='display: block !important';
-        var margin =  obj*2.983+1.9;
-        document.getElementById('triangleYear').style.cssText='margin-left:' + margin +'%!important; display: block !important';
-        lastYear=id;
-      }
-
-      function hoverYear(obj, text){
-        document.getElementById('hoverText').innerHTML = text;
-        var margin =  obj*2.983+1.25;
-        document.getElementById('hoverYear').style.cssText='margin-left:' + margin +'%!important; display: block !important';
-      }
-
-      function hideYear() {
-        document.getElementById('hoverYear').style.cssText='display: none !important';
-      }
-    </script>
+    <script  type="text/javascript" src="../JavaScript/Timeline.js"></script>
     <title>Timeline</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
-      <img src="html/images/ar.png" alt="Logo">
+      <img src="images/ar.png" alt="Logo">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -74,7 +53,7 @@
       </ul>
     </div>
     </nav>
-    
+
     <article class="yosemite parallax">
       <section class="head">
         <h1>Timeline</h1>
