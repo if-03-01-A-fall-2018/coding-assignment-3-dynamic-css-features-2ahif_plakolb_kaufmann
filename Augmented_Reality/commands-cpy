@@ -1,2 +1,0 @@
-sudo cp Desktop/coding-assignment-3-dynamic-css-features-2ahif_plakolb_kaufmann/Augmented_Reality/index.html /var/www/html/index.html
-sudo cp -r Desktop/coding-assignment-3-dynamic-css-features-2ahif_plakolb_kaufmann/Augmented_Reality/html /var/www/html/html
