@@ -18,6 +18,10 @@ h1{
   background-color: white;
 }
 
+nav.navbar {
+  font-size: 22px;
+}
+
 @-webkit-keyframes Header {
 0%   {color: #d92bb7;}
 25%  {color: purple;}
