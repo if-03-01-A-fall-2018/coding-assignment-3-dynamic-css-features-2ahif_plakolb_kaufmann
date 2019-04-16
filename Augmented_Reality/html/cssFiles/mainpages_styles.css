@@ -1,0 +1,79 @@
+img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+.dropdown-menu{
+  background-color: #343A40;
+}
+
+.dropdown-menu a{
+  color: grey;
+}
+
+.dropdown-menu hover {
+  background-color: white;
+}
+
+body {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  text-align: center;
+  font-size: 22px;
+  -moz-box-shadow: 0 0 50px lightgrey;
+  -webkit-box-shadow: 0 0 50px lightgrey;
+  box-shadow: 0 0 50px lightgrey;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  border-bottom: 2px solid black;
+}
+
+/* Animations */
+@-webkit-keyframes Header {
+0%   {color: #d92bb7;}
+25%  {color: purple;}
+50%  {color: indigo;}
+75% {color: #ff00bf;}
+100% {color: #d92bb7;}
+}
+
+article>h1{
+  font-size: 3em;
+  clear: both;
+  text-shadow: darkgrey 2px 2px 2px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-animation-name: Header;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+div.Ar {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 0%;
+  background-image:url("../images/iconAR.png");
+  position: relative;
+  animation-name: Ar;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* Standard syntax */
+@-webkit-keyframes Ar {
+  0%   {background-image:url("../images/iconAR.png"); left:6%; top:5%;}
+  40%  {background-image:url("../images/iconAR.png"); left:90%; top:5%;}
+  50%  {background-image:url("../images/iconAR.png"); left:90%; top:10%;}
+  90%  {background-image:url("../images/iconAR.png"); left:6%; top:10%;}
+  100% {background-image:url("../images/iconAR.png"); left:6%; top:5%;}
+}

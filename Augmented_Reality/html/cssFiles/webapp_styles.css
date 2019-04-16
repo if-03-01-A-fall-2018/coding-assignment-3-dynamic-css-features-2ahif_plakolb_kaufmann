@@ -1,0 +1,72 @@
+.dropdown-menu{
+  background-color: #343A40;
+}
+
+.dropdown-menu a{
+  color: grey;
+}
+
+.dropdown-menu hover {
+  background-color: white;
+}
+
+body {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 22px;
+}
+
+img {
+  width: 75%;
+}
+
+article {
+  padding: 20px;
+}
+
+a.btn-lg {
+  margin-top: 20%;
+}
+
+.button_image:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: text-top;
+  background-color: transparent;
+  background-position : center center;
+  background-repeat:no-repeat;
+}
+
+.left_image:before{
+     background-image : url(../images/arrow_left.png);
+}
+
+.right_image:before{
+     background-image : url(../images/arrow_right.png);
+}
+
+/* Animations */
+@-webkit-keyframes Header {
+0%   {color: #d92bb7;}
+25%  {color: purple;}
+50%  {color: indigo;}
+75% {color: #ff00bf;}
+100% {color: #d92bb7;}
+}
+
+article>h1{
+  font-size: 3em;
+  clear: both;
+  text-shadow: darkgrey 2px 2px 2px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-animation-name: Header;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+}
