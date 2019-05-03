@@ -12,148 +12,142 @@
     <script  type="text/javascript" src="javascript/Timeline.js"></script>
     <title>Timeline</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">
-        <img src="images/ar.png" alt="Logo">
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="applications.html">Applications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="technology.html">Devices & Technology</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Realities
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
-              <a class="dropdown-item" href="virtual_reality.html">Virtual Reality</a>
-              <a class="dropdown-item" href="mixed_reality.html">Mixed Reality</a>
-              <a class="dropdown-item" href="extended_reality.html">Extended Reality</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="software.html">Software</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="web_app/web_app_ui.html">Web App</a>
-          </li>
-        </ul>
-      </div>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="images/ar.png" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="applications.html">Applications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="technology.html">Devices & Technology</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Realities
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="augmented_reality.html">Augmented Reality</a>
+            <a class="dropdown-item" href="virtual_reality.html">Virtual Reality</a>
+            <a class="dropdown-item" href="mixed_reality.html">Mixed Reality</a>
+            <a class="dropdown-item" href="extended_reality.html">Extended Reality</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="software.html">Software</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="web_app/web_app_ui.html">Web App</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <article class="yosemite parallax">
+    <section class="head">
+      <h1>Timeline</h1>
+      <p>The story and evolution of Augmented Reality.</p>
+    </section>
+  </article>
+  <nav class="site-header sticky-top py-1">
+    <article class="container d-flex flex-column flex-md-row justify-content-between"></article>
+  </nav>
+  <article class="content">
+    <nav class="site-header sticky-top py-1 timeline-line">
+      <article id="hoverYear"><p id="hoverText"></p></article>
+      <article class="container d-flex flex-column flex-md-row justify-content-between max-width">
+        <a onclick="showYear(1, '1957')" onmouseover="hoverYear(1, '1957')" id="1" onmouseout="hideYear()"></a>
+        <a onclick="showYear(2, '1968')" onmouseover="hoverYear(2, '1968')" id="2" onmouseout="hideYear()"></a>
+        <a onclick="showYear(3, '1990')" onmouseover="hoverYear(3, '1990')" id="3" onmouseout="hideYear()"></a>
+        <a onclick="showYear(4, '1992')" onmouseover="hoverYear(4, '1992')" id="4" onmouseout="hideYear()"></a>
+        <a onclick="showYear(5, '2000')" onmouseover="hoverYear(5, '2000')" id="5" onmouseout="hideYear()"></a>
+        <a onclick="showYear(6, '2009')" onmouseover="hoverYear(6, '2009')" id="6" onmouseout="hideYear()"></a>
+        <a onclick="showYear(7, '2013')" onmouseover="hoverYear(7, '2013')" id="7" onmouseout="hideYear()"></a>
+        <a onclick="showYear(8, '2016')" onmouseover="hoverYear(8, '2016')" id="8" onmouseout="hideYear()"></a>
+        <a onclick="showYear(9, '2018')" onmouseover="hoverYear(9, '2018')" id="9" onmouseout="hideYear()"></a>
+        <a onclick="showYear(10, 'Future')" onmouseover="hoverYear(10, 'Future')" id="10" onmouseout="hideYear()"></a>
+      </article>
+      <section id="triangle"></section>
+      <article id="triangleYear"></article>
     </nav>
-
-    <article class="yosemite parallax">
-      <section class="head">
-        <h1>Timeline</h1>
-          <p>The story and evolution of Augmented Reality.</p>
-      </section>
-    </article>
-
-    <nav class="site-header sticky-top py-1">
-        <article class="container d-flex flex-column flex-md-row justify-content-between"></article>
-    </nav>
-
-    <article class="content">
-      <nav class="site-header sticky-top py-1 timeline-line">
-          <article id="hoverYear"><p id="hoverText"></p></article>
-          <article class="container d-flex flex-column flex-md-row justify-content-between max-width">
-            <a onclick="showYear(1, '1957')" onmouseover="hoverYear(1, '1957')" id="1" onmouseout="hideYear()"></a>
-            <a onclick="showYear(2, '1968')" onmouseover="hoverYear(2, '1968')" id="2" onmouseout="hideYear()"></a>
-            <a onclick="showYear(3, '1990')" onmouseover="hoverYear(3, '1990')" id="3" onmouseout="hideYear()"></a>
-            <a onclick="showYear(4, '1992')" onmouseover="hoverYear(4, '1992')" id="4" onmouseout="hideYear()"></a>
-            <a onclick="showYear(5, '2000')" onmouseover="hoverYear(5, '2000')" id="5" onmouseout="hideYear()"></a>
-            <a onclick="showYear(6, '2009')" onmouseover="hoverYear(6, '2009')" id="6" onmouseout="hideYear()"></a>
-            <a onclick="showYear(7, '2013')" onmouseover="hoverYear(7, '2013')" id="7" onmouseout="hideYear()"></a>
-            <a onclick="showYear(8, '2016')" onmouseover="hoverYear(8, '2016')" id="8" onmouseout="hideYear()"></a>
-            <a onclick="showYear(9, '2018')" onmouseover="hoverYear(9, '2018')" id="9" onmouseout="hideYear()"></a>
-            <a onclick="showYear(10, 'Future')" onmouseover="hoverYear(10, 'Future')" id="10" onmouseout="hideYear()"></a>
-          </article>
-          <section id="triangle"></section>
-        <article id="triangleYear"></article>
-      </nav>
-
-      <ul id="timeline">
-        <li id="1957">
+    <ul id="timeline">
+      <li id="1957">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>First steps</h2>
+          <p>To somewhat extend, augmented reality was first invented by a cinematographer called Morton Heilig in 1957. He founded the Sensorama which delivered visuals, sounds, vibration and smell to the viewer. </p>
+          <p>Obviously, it wasn’t computer controlled but it was the first example of an endeavor at adding extra data to an experience.</p>
+        </article>
+      </li>
+      <li id="1968">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>Ivan Sutherland</h2>
+          <p>The beginning of Augmented Reality can be traced back to 1968, when Ivan Sutherland developed the first head-mounted display system. </p>
+        </article>
+      </li>
+      <li id="1990">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>The term "Augmented Reality" was born</h2>
+          <p>The noun Augmented Reality (Augmented Reality) was first introduced by Boeing researcher Tom Caudell in 1990. </p>
+          <p>Since then it is considered one of the "main" realities.</p>
+        </article>
+      </li>
+      <li id="1992">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>The first Augmented Reality System</h2>
+          <p>The first perfectly functioning Augmented Reality system was the one developed at USAF Armstrong’s Research Lab by Louis Rosenberg in 1992.</p>
+          <p>This was called Virtual Fixtures and was an extremely complex robotic system which was intended to compensate for the lack of high-speed 3D graphics processing power in the early 90s.</p>
+        </article>
+      </li>
+      <li id="2000">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>Augmented Reality getting famous</h2>
+          <p>Augmented Reality and the internet finally joined forces in the early 2000s but it wasn’t until 2009, boosted by the smartphone revolution, that interest in the technology exploded.</p>
+        </article>
+      </li>
+      <li id="2009">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>SixthSense</h2>
+          <p>In 2009, the MIT Media Lab’s Fluid Interfaces Group presented SixthSense, a device that synthesized the use of a camera, small projector, smartphone and mirror.</p>
+          <p>Four sensor devices on the user’s fingers can be used to operate the images projected by SixthSense.</p>
+        </article>
+      </li>
+      <li id="2013">
+        <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
+          <h2>Google Glass</h2>
+          <p>Moving augmented reality to a more wearable interface, Google rolled out Google Glass in 2013.</p>
+          <p>It displays on the user’s lens screen via a small projector and responds to voice commands, covering images, videos and sounds onto the screen.</p>
+        </article>
+        </li>
+        <li id="2016">
           <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>First steps</h2>
-            <p>To somewhat extend, augmented reality was first invented by a cinematographer called Morton Heilig in 1957. He founded the Sensorama which delivered visuals, sounds, vibration and smell to the viewer. </p>
-            <p>Obviously, it wasn’t computer controlled but it was the first example of an endeavor at adding extra data to an experience.</p>
+            <h2>Pokemon Go</h2>
+            <p>In 2016, “Pokémon Go” an Augmented Reality game became a sensation globally, with over 100 million downloads according to CNET.</p>
+            <p>The game let users to see Pokémon characters bouncing around in their own town. The goal was to capture pocket monsters, and use them to battle others, locally, in Augmented Reality gyms.</p>
           </article>
         </li>
-        <li id="1968">
+        <li id="2018">
           <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>Ivan Sutherland</h2>
-            <p>The beginning of Augmented Reality can be traced back to 1968, when Ivan Sutherland developed the first head-mounted display system. </p>
+            <h2>Harry Potter: Wizards Unite</h2>
+            <p>In 2018, a mobile Augmented Reality game named “Harry Potter: Wizards Unite” became worldwide sensation.</p>
+            <p>The game not only entertain the users but also allowed them see the Hogwarts around them while having the ability to cast spells, use potions and to learn from Hogwarts teachers.</p>
           </article>
         </li>
-        <li id="1990">
+        <li id="Future">
           <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>The term "Augmented Reality" was born</h2>
-            <p>The noun Augmented Reality (Augmented Reality) was first introduced by Boeing researcher Tom Caudell in 1990. </p>
-            <p>Since then it is considered one of the "main" realities.</p>
+            <h2>The Future</h2>
+            <p>Research continues swiftly on including Augmented Reality functionality in contact lenses, and other wearable devices.</p>
+            <p>The crucial goal of augmented reality is to build a convenient and natural involvement, so there’s a sense that phones and tablets will get replaced, but it’s not sure what those replacements will be.</p>
+            <p>Even glasses will also take on a new form, as “smart glasses” are developed for blind people.</p>
           </article>
-        </li>
-        <li id="1992">
-          <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>The first Augmented Reality System</h2>
-            <p>The first perfectly functioning Augmented Reality system was the one developed at USAF Armstrong’s Research Lab by Louis Rosenberg in 1992.</p>
-            <p>This was called Virtual Fixtures and was an extremely complex robotic system which was intended to compensate for the lack of high-speed 3D graphics processing power in the early 90s.</p>
-          </article>
-        </li>
-        <li id="2000">
-          <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>Augmented Reality getting famous</h2>
-            <p>Augmented Reality and the internet finally joined forces in the early 2000s but it wasn’t until 2009, boosted by the smartphone revolution, that interest in the technology exploded.</p>
-          </article>
-        </li>
-        <li id="2009">
-          <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>SixthSense</h2>
-            <p>In 2009, the MIT Media Lab’s Fluid Interfaces Group presented SixthSense, a device that synthesized the use of a camera, small projector, smartphone and mirror.</p>
-            <p>Four sensor devices on the user’s fingers can be used to operate the images projected by SixthSense.</p>
-          </article>
-        </li>
-        <li id="2013">
-          <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-            <h2>Google Glass</h2>
-            <p>Moving augmented reality to a more wearable interface, Google rolled out Google Glass in 2013.</p>
-            <p>It displays on the user’s lens screen via a small projector and responds to voice commands, covering images, videos and sounds onto the screen.</p>
-          </article>
-          </li>
-          <li id="2016">
-            <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-              <h2>Pokemon Go</h2>
-              <p>In 2016, “Pokémon Go” an Augmented Reality game became a sensation globally, with over 100 million downloads according to CNET.</p>
-              <p>The game let users to see Pokémon characters bouncing around in their own town. The goal was to capture pocket monsters, and use them to battle others, locally, in Augmented Reality gyms.</p>
-            </article>
-          </li>
-          <li id="2018">
-            <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-              <h2>Harry Potter: Wizards Unite</h2>
-              <p>In 2018, a mobile Augmented Reality game named “Harry Potter: Wizards Unite” became worldwide sensation.</p>
-              <p>The game not only entertain the users but also allowed them see the Hogwarts around them while having the ability to cast spells, use potions and to learn from Hogwarts teachers.</p>
-            </article>
-          </li>
-            <li id="Future">
-              <article class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark text-white timelinetext">
-                <h2>The Future</h2>
-                <p>Research continues swiftly on including Augmented Reality functionality in contact lenses, and other wearable devices.</p>
-                <p>The crucial goal of augmented reality is to build a convenient and natural involvement, so there’s a sense that phones and tablets will get replaced, but it’s not sure what those replacements will be.</p>
-                <p>Even glasses will also take on a new form, as “smart glasses” are developed for blind people.</p>
-              </article>
-          </li>
-    </article>
-  </body>
-</html>
+         </li>
+       </article>
+     </body>
+    </html>
