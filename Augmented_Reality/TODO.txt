@@ -1,0 +1,12 @@
+#1 Realities pages -> background
+#2 more models
+#3 Devices -> background
+#4 switching between host and printed markers
+#5 clean up css files
+
+
+
+
+
+#x clean up changelog
+#x + 1 clean up temp.txt
