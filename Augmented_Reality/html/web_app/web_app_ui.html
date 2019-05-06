@@ -8,6 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="../javascript/change_rotation.js"></script>
   <link rel="stylesheet" href = "../cssFiles/webapp_styles.css"/>
   <title>Webapplication</title>
 </head>
@@ -57,6 +58,16 @@
       <a href="web_app_host.html" class="btn-lg btn-info btn-block btn-dark" role="button">Host</a>
       <a href="web_app_user.html" class="btn-lg btn-info btn-block btn-dark" role="button">User</a>
       <a href="../images/ar.png" download> Download link</a>
+      <br>
+      <label class="switch">
+        <input type="checkbox" id="myCheck">
+        <span class="slider round"></span>
+      </label>
+      <script>changeRotation();</script>
+      <br>
+      <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
     </article>
   </body>
 </html>
