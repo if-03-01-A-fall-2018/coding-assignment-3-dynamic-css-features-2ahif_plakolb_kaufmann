@@ -78,20 +78,15 @@ article>h1{
   height: 34px;
 }
 
-<<<<<<< HEAD
-=======
 /* Hide default HTML checkbox */
->>>>>>> 5542fdd999a79195f716c06feca7bab66bc5929b
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-<<<<<<< HEAD
-=======
+
 /* The slider */
->>>>>>> 5542fdd999a79195f716c06feca7bab66bc5929b
 .slider {
   position: absolute;
   cursor: pointer;
@@ -130,10 +125,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-<<<<<<< HEAD
-=======
 /* Rounded sliders */
->>>>>>> 5542fdd999a79195f716c06feca7bab66bc5929b
 .slider.round {
   border-radius: 34px;
 }
@@ -142,7 +134,6 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-<<<<<<< HEAD
 .tooltip {
   position: relative;
   display: inline-block;
@@ -168,7 +159,7 @@ input:checked + .slider:before {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-=======
+
 /* Tooltip container */
 .tooltip {
   color: black;
@@ -202,4 +193,3 @@ input:checked + .slider:before {
   top: -5px;
   left: 105%;
 }
->>>>>>> 5542fdd999a79195f716c06feca7bab66bc5929b
