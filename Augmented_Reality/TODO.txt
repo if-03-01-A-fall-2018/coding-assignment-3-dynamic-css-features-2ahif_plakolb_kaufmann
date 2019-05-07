@@ -1,14 +1,14 @@
-#1 Realities pages -> background
-#2 more models
-#2.1 plate for models
-#3 Devices -> background
-#4 switching between host and printed markers
-#5 clean up css files
+#1 Realities pages -> background			Marcel
+#2 more models						Jan
+#2.1 plate for models					Marcel
+#3 Devices -> background				Marcel
+#4 switching between host and printed markers		Jan
+#5 clean up css files					Jan
 
-#5 make downloadable pdf			DONE
-
-
+#5 make downloadable pdf			DONE	Jan
 
 
-#x clean up changelog
-#x + 1 clean up temp.txt
+
+
+#x clean up changelog					Jan
+#x + 1 clean up temp.txt				Jan
