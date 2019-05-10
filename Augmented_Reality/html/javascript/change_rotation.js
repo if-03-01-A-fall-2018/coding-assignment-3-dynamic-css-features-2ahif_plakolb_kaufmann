@@ -1,11 +1,13 @@
 // Changes from printed marker based to host marker based
 function changeRotation() {
-  if(document.getElementById("button1").checked)
-  {
-    console.log("On");
-  }
-  else if(!document.getElementById("button1").checked)
-  {
-    console.log("Off");
+  // Get the checkbox
+  var checkBox = document.getElementById("button1");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+    console.log("Checkbox is Checked");
+  } else {
+    text.style.display = "none";
   }
 }

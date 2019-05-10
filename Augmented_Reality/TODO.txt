@@ -1,12 +1,15 @@
-#1 Realities pages -> background			Marcel
 #2 more models						Jan
 #2.1 plate for models					Marcel
 #3 Devices -> background				Marcel
 #4 switching between host and printed markers		Jan
-#5 clean up css files					Jan
+#5 add sources page
+#6 clean up css files					Jan
+#7 improve applications and software
+#8 update Devices and Technology
+
 
 #5 make downloadable pdf			DONE	Jan
-
+#1 Realities pages -> background	DONE		Marcel
 
 
 
