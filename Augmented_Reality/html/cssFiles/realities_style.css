@@ -19,12 +19,8 @@ body {
   font-size: 22px;
 }
 
-h1 {
-  border-bottom: 5px double black;
-  margin-bottom: 30px;
-}
-
 h2 {
+  color: #ff00bf;
   border-bottom: 2px solid black;
 }
 
@@ -34,4 +30,24 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@-webkit-keyframes Header {
+0%   {color: #d92bb7;}
+25%  {color: purple;}
+50%  {color: indigo;}
+75% {color: #ff00bf;}
+100% {color: #d92bb7;}
+}
+
+article>h1{
+  font-size: 3em;
+  clear: both;
+  text-shadow: darkgrey 2px 2px 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  -webkit-animation-name: Header;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
 }
