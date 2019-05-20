@@ -163,3 +163,8 @@ input:checked + .slider:before {
 .artooltip:hover .artooltiptext {
   visibility: visible;
 }
+
+p.text1 {
+  color: red;
+  font-weight: bold;
+}
