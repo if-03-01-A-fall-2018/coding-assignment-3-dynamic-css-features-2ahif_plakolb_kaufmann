@@ -16,6 +16,6 @@ function changeRotation() {
   {
     text1.style.display = "none";
     text2.style.display = "none";
-    host_button.href = host_href;   //Enable Disable host button
+    host_button.href = host_href;   //Enable host button
   }
 }
