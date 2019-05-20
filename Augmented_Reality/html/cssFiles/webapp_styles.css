@@ -26,8 +26,12 @@ article {
   padding: 20px;
 }
 
-a.btn-lg {
+a.btn-lg.top_button {
   margin-top: 20%;
+}
+
+a.btn-lg {
+  margin-top: 2%;
 }
 
 .button_image:before {
