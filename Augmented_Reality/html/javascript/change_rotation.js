@@ -1,5 +1,5 @@
 // Changes from printed marker based to host marker based
-function changeRotation() {
+function checkToggleSwitch() {
   // Get the checkbox
   var check_box = document.getElementById("checkbox");
   var host_button = document.getElementById("hostbutton");
