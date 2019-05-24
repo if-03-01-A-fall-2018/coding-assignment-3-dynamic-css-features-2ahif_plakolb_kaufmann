@@ -15,3 +15,13 @@
 
 #x clean up changelog					Jan
 #x + 1 clean up temp.txt				Jan
+
+
+
+
+
+PRESENTATION!!!
+
+Thema?                ca. 3-4min
+Webapp?               ca. 2-3min
+Technik? Umsetzung?   ca. 2min
