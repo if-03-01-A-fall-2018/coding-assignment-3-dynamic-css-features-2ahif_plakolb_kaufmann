@@ -19,3 +19,13 @@ function changeRotation() {
     host_button.href = host_href;   //Enable host button
   }
 }
+
+function testFunc() {
+  console.log("test");
+  if (confirm('Are you sure you want to save this thing into the database?')) {
+    // Save it!
+} else {
+    // Do nothing!
+}
+  //location.reload(true);
+}
