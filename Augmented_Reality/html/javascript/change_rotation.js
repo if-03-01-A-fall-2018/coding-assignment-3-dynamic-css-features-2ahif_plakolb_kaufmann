@@ -22,8 +22,19 @@ function checkToggleSwitch() {
 
 function testFunc() {
   console.log("test");
-  if (confirm('Are you sure you want to save this thing into the database?')) {
-    // Save it!
+  if (confirm('Press "OK" if you want to use Host markers, press "Abort" if you want to use printed markers!')) {
+    console.log("Changing...");
+    var trex = document.getElementById("trex");
+    console.log(trex);
+    var sceneEl = document.querySelector('a-scene');
+    var entityEl = document.querySelector('a-entity');
+    console.log(entityEl);
+    console.log(entityEl.getAttribute('rotation'));
+    //entityEl.setAttribute('rotation', {x: THREE.Math.degToRad(45), y: THREE.Math.degToRad(45), z: THREE.Math.degToRad(45)});
+    entityEl.object3D.rotation.y = THREE.Math.degToRad(45);
+    entityEl.object3D.rotation.x = THREE.Math.degToRad(45);
+    entityEl.object3D.rotation.z = THREE.Math.degToRad(45);
+    console.log(entityEl.getAttribute('rotation'));
 } else {
     // Do nothing!
 }

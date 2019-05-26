@@ -2,6 +2,7 @@
 #2.1 plate for models					Marcel
 #3 Devices -> background				Marcel
 #4 switching between host and printed markers		Jan
+# Fix the fucking animation on index or remove it
 #5 add sources page
 #6 clean up css files					Jan
 #7 improve applications and software
