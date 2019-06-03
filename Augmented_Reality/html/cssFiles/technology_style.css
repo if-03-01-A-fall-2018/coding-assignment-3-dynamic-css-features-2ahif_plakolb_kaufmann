@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url("../images/bulb.jpeg");
+  background: #241e20;
   /*background-color: #241e20; Color of bulb background */
   color: white;
   font-size: 22px;
