@@ -9,3 +9,7 @@ STONEHENGE
 Stonehenge is a prehistoric monument in Wiltshire, England, two miles (3 km) west of Amesbury. It consists of a ring of standing stones, with each standing stone around 13 feet (4.0 m) high, seven feet (2.1 m) wide and weighing around 25 tons. The stones are set within earthworks in the middle of the most dense complex of Neolithic and Bronze Age monuments in England, including several hundred burial mounds.
 
 Archaeologists believe it was constructed from 3000 BC to 2000 BC. The surrounding circular earth bank and ditch, which constitute the earliest phase of the monument, have been dated to about 3100 BC. Radiocarbon dating suggests that the first bluestones were raised between 2400 and 2200 BC,[2] although they may have been at the site as early as 3000 BC.
+
+SPHINX
+
+The Sphinx is a monolith carved into the bedrock of the plateau, which also served as the quarry for the pyramids and other monuments in the area. The nummulitic limestone of the area consists of layers which offer differing resistance to erosion (mostly caused by wind and windblown sand), leading to the uneven degradation apparent in the Sphinx's body. The lowest part of the body, including the legs, is solid rock. The body of the lion up to its neck is fashioned from softer layers that have suffered considerable disintegration. The layer in which the head was sculpted is much harder.
