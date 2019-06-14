@@ -5,7 +5,6 @@ function change_rotation() {
     console.log("Changing...");
     document.title="Printed";
     var entityEl = document.querySelector('#trex');
-    console.log(entityEl.getAttribute('rotation'));
     entityEl.object3D.rotation.y = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.x = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
@@ -21,6 +20,7 @@ function change_rotation() {
     entityEl.object3D.rotation.y = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.x = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
+    console.log("Finished Changing!");
   } else {
     document.title="Host";
   }
