@@ -4,19 +4,19 @@ function change_rotation() {
   if (confirm('Press "OK" if you want to use Printed markers, press "Abort" if you want to use host markers!')) {
     console.log("Changing...");
     document.title="Printed";
-    var entityEl = document.querySelector('#trex');
+    let entityEl = document.querySelector('#trex');
     entityEl.object3D.rotation.y = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.x = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
-    var entityEl = document.querySelector('#sphinx');
+    let entityEl = document.querySelector('#sphinx');
     entityEl.object3D.rotation.y = THREE.Math.degToRad(270);
     entityEl.object3D.rotation.x = THREE.Math.degToRad(270);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(90);
-    var entityEl = document.querySelector('#stonehenge');
+    let entityEl = document.querySelector('#stonehenge');
     entityEl.object3D.rotation.y = THREE.Math.degToRad(270);
     entityEl.object3D.rotation.x = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
-    var entityEl = document.querySelector('#jupiter');
+    let entityEl = document.querySelector('#jupiter');
     entityEl.object3D.rotation.y = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.x = THREE.Math.degToRad(0);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
