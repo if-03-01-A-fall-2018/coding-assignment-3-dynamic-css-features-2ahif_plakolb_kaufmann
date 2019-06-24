@@ -10,10 +10,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href = "../cssFiles/webapp_styles.css"/>
     <script src="../javascript/marker_switching.js"></script>
+    <script src="../javascript/change_rotation.js"></script>
     <title>Markers</title>
   </head>
   <body>
     <a href="web_app_ui.html" class="btn btn-info btn-block btn-dark" role="button">Back</a></button>
+    <script>change_rotation()</script>
     <button type="button" class="navbutton btn btn-info btn-block btn-dark button_image left_image" onclick="marker_switch(1)"></button>
     <button type="button "class="navbutton btn btn-info btn-block btn-dark button_image right_image" onclick="marker_switch(0)"></button>
     <img id="marker" src="markers/english_class_goes_ar-marker.png" alt="marker image">
