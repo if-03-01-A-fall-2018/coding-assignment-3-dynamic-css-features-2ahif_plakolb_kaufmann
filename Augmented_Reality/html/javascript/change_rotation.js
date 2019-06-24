@@ -22,6 +22,7 @@ function change_rotation() {
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
     console.log("Finished Changing!");
   } else {
+    console.log("Nothing to change!");
     document.title="Host";
   }
 }
