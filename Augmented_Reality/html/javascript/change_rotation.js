@@ -13,8 +13,8 @@ function change_rotation() {
     entityEl.object3D.rotation.x = THREE.Math.degToRad(270);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(90);
     entityEl = document.querySelector('#stonehenge');
-    entityEl.object3D.rotation.y = THREE.Math.degToRad(270);
-    entityEl.object3D.rotation.x = THREE.Math.degToRad(0);
+    entityEl.object3D.rotation.y = THREE.Math.degToRad(0);
+    entityEl.object3D.rotation.x = THREE.Math.degToRad(270);
     entityEl.object3D.rotation.z = THREE.Math.degToRad(0);
     entityEl = document.querySelector('#jupiter');
     entityEl.object3D.rotation.y = THREE.Math.degToRad(0);
