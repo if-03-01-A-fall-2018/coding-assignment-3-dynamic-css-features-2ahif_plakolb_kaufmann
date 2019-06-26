@@ -1,4 +1,4 @@
-var lastYear='1968';
+let lastYear='1968';
 
 function showYear(obj, id){
   document.getElementById(lastYear).style.cssText='display: none !important';
