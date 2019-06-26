@@ -1,6 +1,5 @@
 // Changes from printed marker based to host marker based
 function change_rotation() {
-  console.log("test");
   if (confirm('Press "OK" if you want to use Printed markers, press "Abort" if you want to use host markers!')) {
     console.log("Changing...");
     document.title="Printed";
